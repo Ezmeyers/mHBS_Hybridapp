@@ -39,20 +39,15 @@
       "android"
     ],
     "plugins": {
-      "cordova-plugin-whitelist": {},
-      "com-darryncampbell-cordova-plugin-intent": {},
-      "com.napolitano.cordova.plugin.intent": {},
-      "cordova-plugin-secure-storage": {},
-      "cordova-plugin-dialogs": {}
+      "com.moust.cordova.videoplayer": {},
+      "cordova-plugin-whitelist": {}
     }
   },
   "dependencies": {
-    "com-darryncampbell-cordova-plugin-intent": "^1.0.2",
-    "cordova-android": "^6.3.0",
-    "cordova-plugin-intent": "git+https://github.com/napolitano/cordova-plugin-intent.git",
-    "cordova-plugin-whitelist": "1",
-    "com.napolitano.cordova.plugin.intent": "https://github.com/napolitano/cordova-plugin-intent",
-    "cordova-plugin-secure-storage": "^2.6.8",
-    "cordova-plugin-dialogs": "^2.0.1"
+    "Html5Video": "git+https://github.com/jaeger25/Html5Video.git",
+    "com.moust.cordova.videoplayer": "~1.0.1",
+    "cordova-android": "^7.0.0",
+    "cordova-plugin-video-player": "^1.0.1",
+    "cordova-plugin-whitelist": "1"
   }
 }

@@ -82,6 +82,13 @@ var catalogView = app.views.create('#view-catalog', {
 var settingsView = app.views.create('#view-settings', {
   url: '/settings/'
 });
+var videoView = app.views.create('#view-video', {
+  url: '/mhbsvideos/'
+});
+var guideView = app.views.create('#view-guide', {
+  url: '/mhbsmain/'
+});
+
 
 var videoListView = app.views.create('#view-videoList', {
   url: '/videoList/'
